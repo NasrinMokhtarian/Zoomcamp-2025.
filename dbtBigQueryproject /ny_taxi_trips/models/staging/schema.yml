@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: staging
+    database: kestra-sandbox-449808
+    schema: ny_taxi_all_trips
+    tables:
+      - name: green_trips
+      - name: yellow_trips
+      - name: fhv_trips
+      
